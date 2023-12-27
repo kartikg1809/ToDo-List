@@ -20,7 +20,6 @@ app.get('/work', (req, res) =>{
 
 app.post('/', (req, res) =>{
     var task=req.body.newTask;
-    console.log(req.body);
     if(req.body.list==="Work List"){
         works.push(task);
         res.redirect("/work")
