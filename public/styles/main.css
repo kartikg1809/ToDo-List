@@ -1,0 +1,108 @@
+body{
+    background-color: #E5D4FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    max-width: 550px;
+    background-color:#F1EAFF;
+    height: 75vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.All{
+    overflow: auto;
+    height: 60%;
+}
+p{
+    font-family: 'Caveat', cursive;
+    font-weight: 200;
+    font-size: xx-large;
+    text-align: left;
+    color: #8768d2;
+    margin:0px;
+    padding: 10px;
+}
+.date{
+    font-family: "Amatic SC",sans-serif;
+    text-align: center;
+    background-color: #a076f9;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+    color: #F1EAFF;
+    font-size:40px;
+}
+button{
+    font-family: "Amatic SC",sans-serif;
+    border-radius: 50%;
+    min-height: 50px;
+    width: 50px;
+    background-color: #A076F9;
+    color: #fff;
+    font-size: 50px;
+    border: none;
+}
+form{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}
+.newTask{
+    font-size: large;
+    padding: 6px 8px;
+    border: none;
+    font-family: "Alkatra",sans-serif;
+    width: 300px;
+    height: 45px;
+    color: #8768d2;
+    border-radius: 8px;
+}
+::placeholder{
+    color: #a085df;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+.check{
+    margin: 20px;
+}
+input:checked+p{
+    text-decoration: line-through;
+}
+header{
+    display: block;
+    margin-left: auto;
+}
+header,ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 25px;
+    padding: 8px 20px;
+    font-family: "Amatic SC",sans-serif;
+}
+ul{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #8768d2;
+    font-size: 32px;
+    font-weight: 200;
+}
+.fa-solid{
+    color: #8768d2;
+    font-size: 28px;
+    padding: 0 4px;
+}
